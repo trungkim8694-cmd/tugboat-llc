@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>主要事業案内 | タグボート合同会社 (Tugboat LLC)</title>
+  <meta name="description" content="タグボート合同会社の中核3事業のご案内です。Web用動画・コマーシャル等の映像企画制作、ホームページ・ECサイトの企画開発・保守管理、広告業および広告代理業の対応領域、納品仕様、品質管理体制を掲載しています。">
+  <link rel="canonical" href="https://tugboat-llc.pages.dev/services">
+
+  <!-- Tailwind CSS & Fonts -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Noto Sans JP"', 'sans-serif'],
+            display: ['"Plus Jakarta Sans"', '"Noto Sans JP"', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#f0f7ff',
+              100: '#e0effe',
+              500: '#3b82f6',
+              600: '#2563eb',
+              700: '#1d4ed8',
+              800: '#1e40af',
+              900: '#1e3a8a',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-white text-slate-800 font-sans antialiased selection:bg-brand-600 selection:text-white">
+
+  <!-- Header -->
+  <header class="fixed top-0 left-0 w-full z-50 bg-white/95 backdrop-blur-md border-b border-slate-200/90 shadow-xs transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-3 group">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-600 to-blue-700 flex items-center justify-center text-white shadow-md shadow-blue-500/20 font-display font-extrabold text-xl tracking-wider">
+          T
+        </div>
+        <div class="flex flex-col">
+          <span class="font-display font-bold text-lg sm:text-xl text-slate-900 tracking-wider group-hover:text-brand-600 transition-colors">
+            タグボート合同会社
+          </span>
+          <span class="text-[10px] text-slate-500 font-display font-semibold tracking-widest uppercase">
+            TUGBOAT LLC.
+          </span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex items-center gap-7">
+        <a href="/" class="text-sm text-slate-600 hover:text-brand-600 transition-colors font-medium">ホーム</a>
+        <a href="/about" class="text-sm text-slate-600 hover:text-brand-600 transition-colors font-medium">企業理念</a>
+        <a href="/services" class="text-sm text-brand-600 font-bold border-b-2 border-brand-600 py-1">事業案内</a>
+        <a href="/flow" class="text-sm text-slate-600 hover:text-brand-600 transition-colors font-medium">進行の流れ</a>
+        <a href="/representative" class="text-sm text-slate-600 hover:text-brand-600 transition-colors font-medium">代表紹介</a>
+        <a href="/company" class="text-sm text-slate-600 hover:text-brand-600 transition-colors font-medium">会社概要</a>
+        <a href="/contact" class="inline-flex items-center justify-center px-5 py-2.5 rounded-full text-xs font-semibold tracking-wider bg-gradient-to-r from-brand-600 to-blue-700 text-white shadow-md shadow-blue-500/20 hover:brightness-105 transition-all">
+          お問い合わせ
+        </a>
+      </nav>
+
+      <!-- Mobile Menu Button -->
+      <button id="mobile-menu-btn" class="md:hidden text-slate-600 hover:text-slate-900 p-2" aria-label="メニューを開く">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+      </button>
+    </div>
+
+    <!-- Mobile Nav dropdown -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-200 px-6 py-6 space-y-3 shadow-lg">
+      <a href="/" class="block text-slate-700 hover:text-brand-600 text-base py-2 font-medium">ホーム</a>
+      <a href="/about" class="block text-slate-700 hover:text-brand-600 text-base py-2 font-medium">企業理念</a>
+      <a href="/services" class="block text-brand-600 font-bold text-base py-2">事業案内</a>
+      <a href="/flow" class="block text-slate-700 hover:text-brand-600 text-base py-2 font-medium">進行の流れ</a>
+      <a href="/representative" class="block text-slate-700 hover:text-brand-600 text-base py-2 font-medium">代表紹介</a>
+      <a href="/company" class="block text-slate-700 hover:text-brand-600 text-base py-2 font-medium">会社概要</a>
+      <a href="/contact" class="block text-center py-3 rounded-xl bg-brand-600 text-white font-bold text-sm shadow-md">お問い合わせ</a>
+    </div>
+  </header>
+
+  <!-- Breadcrumbs & Page Header -->
+  <section class="pt-28 pb-12 bg-gradient-to-b from-blue-50/60 to-white border-b border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav class="flex items-center text-xs text-slate-500 mb-4 font-medium" aria-label="Breadcrumb">
+        <a href="/" class="hover:text-brand-600 transition-colors">ホーム</a>
+        <span class="mx-2 text-slate-300">/</span>
+        <span class="text-slate-800 font-bold">事業案内</span>
+      </nav>
+      <span class="text-xs font-bold text-brand-600 uppercase tracking-widest font-display block mb-2">Our Business Services</span>
+      <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight font-display">
+        主要事業案内
+      </h1>
+      <p class="text-slate-600 text-sm sm:text-base mt-3 max-w-2xl leading-relaxed">
+        商業登記の定款目的に基づく中核3分野（映像制作、Web・EC開発保守、広告代理業）の対応領域・体制・仕様詳細をご案内します。
+      </p>
+    </div>
+  </section>
+
+  <!-- Quick Nav Anchor -->
+  <div class="bg-white border-b border-slate-200 sticky top-20 z-40 py-3 shadow-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center gap-4 overflow-x-auto text-xs font-bold">
+      <a href="#service-video" class="px-4 py-1.5 rounded-full bg-blue-50 text-blue-700 hover:bg-blue-100 transition-colors shrink-0">
+        01. 映像制作・CM制作
+      </a>
+      <a href="#service-web" class="px-4 py-1.5 rounded-full bg-amber-50 text-amber-700 hover:bg-amber-100 transition-colors shrink-0">
+        02. Web・EC開発保守
+      </a>
+      <a href="#service-ads" class="px-4 py-1.5 rounded-full bg-indigo-50 text-indigo-700 hover:bg-indigo-100 transition-colors shrink-0">
+        03. 広告業・広告代理
+      </a>
+      <a href="#quality-assurance" class="px-4 py-1.5 rounded-full bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors shrink-0">
+        品質管理・NDA
+      </a>
+      <a href="#faq" class="px-4 py-1.5 rounded-full bg-slate-100 text-slate-700 hover:bg-slate-200 transition-colors shrink-0">
+        よくあるご質問
+      </a>
+    </div>
+  </div>
+
+  <!-- SERVICE 01: VIDEO & CM PRODUCTION -->
+  <section id="service-video" class="py-20 bg-white border-b border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-12 gap-12 items-start mb-12">
+        <div class="lg:col-span-5 relative">
+          <div class="rounded-3xl overflow-hidden border border-slate-200 shadow-sm sticky top-36">
+            <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=800&q=80" alt="Video production cinema camera" class="w-full h-80 object-cover">
+            <div class="p-6 bg-slate-50 border-t border-slate-100">
+              <span class="text-xs font-bold text-blue-700 uppercase tracking-widest font-display block mb-1">SERVICE DIVISION 01</span>
+              <p class="font-bold text-slate-900 text-sm">Web用動画、コマーシャル等各種映像の企画、立案及び制作</p>
+              <div class="mt-4 p-3 rounded-xl bg-white border border-slate-200 text-xs text-slate-600">
+                <span class="font-bold text-slate-800 block mb-1">【料金設定方針】</span>
+                案件ごとの撮影日数、ロケーション数、機材編成（シネマカメラ・ドローン等）、キャスティング、CG・特殊編集の有無に応じて透明性のある個別お見積もり書をご提示します。
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-7 space-y-8">
+          <div>
+            <span class="text-xs font-bold text-brand-600 uppercase tracking-widest font-display">Division Overview</span>
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1 mb-4 leading-snug">
+              心揺さぶるビジュアルと、<br>目的を射抜く映像構成。
+            </h2>
+            <p class="text-sm sm:text-base text-slate-600 leading-relaxed">
+              スマートフォンの普及や通信高速化により、企業のコミュニケーションにおいて動画は不可欠な存在となりました。しかし、誰でも動画を撮れる時代だからこそ、ライティング、構図、色調（カラーグレーディング）、演出意図の深さがブランドイメージを決定づけます。
+            </p>
+            <p class="text-sm sm:text-base text-slate-600 leading-relaxed mt-3">
+              タグボート合同会社では、半世紀にわたり第一線でスチール撮影・ビジュアルディレクションを手がけてきた知見をベースに、Webプロモーション用動画、タクシーCM、展示会用VP、採用向け動画など、ビジネス成果に結びつく映像を企画から完パケ納品までワンストップで制作いたします。
+            </p>
+          </div>
+
+          <!-- Sub categories -->
+          <div class="space-y-4">
+            <h3 class="text-base font-bold text-slate-900 border-l-4 border-brand-600 pl-3">
+              対応可能な映像ジャンル
+            </h3>
+            <div class="grid sm:grid-cols-2 gap-4">
+              <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200">
+                <h4 class="font-bold text-slate-900 text-sm mb-1">コーポレートPR / ブランドムービー</h4>
+                <p class="text-xs text-slate-600 leading-relaxed">企業の理念、歴史、技術力、社会的意義をドラマチックに描く高品位プロモーション映像。</p>
+              </div>
+              <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200">
+                <h4 class="font-bold text-slate-900 text-sm mb-1">Web用動画・SNS広告（縦型・横型）</h4>
+                <p class="text-xs text-slate-600 leading-relaxed">YouTube、Meta（Instagram）、X等に最適化した冒頭数秒で視聴者を惹きつけるショート動画。</p>
+              </div>
+              <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200">
+                <h4 class="font-bold text-slate-900 text-sm mb-1">製品・サービス紹介 / 展示会VP</h4>
+                <p class="text-xs text-slate-600 leading-relaxed">展示ブースや商談時、製品の強みや導入メリットを短時間でわかりやすく解説する機能紹介映像。</p>
+              </div>
+              <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200">
+                <h4 class="font-bold text-slate-900 text-sm mb-1">経営者・社員インタビュー / 採用密着</h4>
+                <p class="text-xs text-slate-600 leading-relaxed">働く人の生の声や現場の熱量を切り取り、求職者への共感を呼ぶリクルート用オウンドメディア動画。</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Specs table -->
+          <div class="p-6 rounded-2xl bg-blue-50/40 border border-blue-100">
+            <h4 class="font-bold text-slate-900 text-xs mb-3 uppercase tracking-wider font-display">技術仕様・納品フォーマット</h4>
+            <ul class="grid sm:grid-cols-2 gap-2 text-xs text-slate-700">
+              <li>・解像度：4K（3840×2160） / フルHD（1920×1080）</li>
+              <li>・アスペクト比：16:9（横型） / 9:16（縦型） / 1:1（正方形）</li>
+              <li>・納品形式：ProRes 422HQ / MP4（H.264/H.265） / WebM</li>
+              <li>・音声仕上げ：ラウドネス基準準拠、MA整音、BGM・ナレーション手配</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE 02: WEB & EC SITE DEVELOPMENT -->
+  <section id="service-web" class="py-20 bg-slate-50/60 border-b border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-12 gap-12 items-start mb-12">
+        <div class="lg:col-span-5 relative">
+          <div class="rounded-3xl overflow-hidden border border-slate-200 shadow-sm sticky top-36">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" alt="Web development design" class="w-full h-80 object-cover">
+            <div class="p-6 bg-white border-t border-slate-100">
+              <span class="text-xs font-bold text-amber-700 uppercase tracking-widest font-display block mb-1">SERVICE DIVISION 02</span>
+              <p class="font-bold text-slate-900 text-sm">ホームページ及びECサイトの企画、開発、制作、提供、販売及び保守管理</p>
+              <div class="mt-4 p-3 rounded-xl bg-slate-50 border border-slate-200 text-xs text-slate-600">
+                <span class="font-bold text-slate-800 block mb-1">【料金設定方針】</span>
+                サイト構成（ページ規模・ワイヤーフレーム）、デザイン要件、EC決済機能の実装範囲、月次保守管理の契約範囲に基づき、個別にお見積もりをご提案いたします。
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-7 space-y-8">
+          <div>
+            <span class="text-xs font-bold text-brand-600 uppercase tracking-widest font-display">Division Overview</span>
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1 mb-4 leading-snug">
+              信用を形にするWeb設計と、<br>安心の継続保守体制。
+            </h2>
+            <p class="text-sm sm:text-base text-slate-600 leading-relaxed">
+              企業の公式ホームページは、金融機関による口座審査や取引先企業の与信判断、そしてエンドユーザーとの最初の接点となる最も重要なデジタル資産です。
+            </p>
+            <p class="text-sm sm:text-base text-slate-600 leading-relaxed mt-3">
+              タグボート合同会社では、単なる見た目の美しさだけでなく、W3C規格に準拠したセマンティックなHTML構造、Core Web Vitalsを意識した高速表示、SSL暗号化通信、そしてSchema.orgに準拠したJSON-LD構造化データの実装まで、技術的裏付けのあるWeb構築を徹底いたします。
+            </p>
+          </div>
+
+          <!-- Sub categories -->
+          <div class="space-y-4">
+            <h3 class="text-base font-bold text-slate-900 border-l-4 border-amber-600 pl-3">
+              対応可能なWeb開発領域
+            </h3>
+            <div class="grid sm:grid-cols-2 gap-4">
+              <div class="p-4 rounded-2xl bg-white border border-slate-200">
+                <h4 class="font-bold text-slate-900 text-sm mb-1">コーポレートサイト企画・構築</h4>
+                <p class="text-xs text-slate-600 leading-relaxed">企業の信頼性向上、採用強化、サービス紹介を目的とした多機能コーポレートサイトの設計と制作。</p>
+              </div>
+              <div class="p-4 rounded-2xl bg-white border border-slate-200">
+                <h4 class="font-bold text-slate-900 text-sm mb-1">ECサイト（電子商取引）企画・開発</h4>
+                <p class="text-xs text-slate-600 leading-relaxed">Shopifyや独自CMSを活用した商品登録・カート決済・在庫管理基盤の安全な導入とカスタマイズ。</p>
+              </div>
+              <div class="p-4 rounded-2xl bg-white border border-slate-200">
+                <h4 class="font-bold text-slate-900 text-sm mb-1">継続保守・セキュリティ運用管理</h4>
+                <p class="text-xs text-slate-600 leading-relaxed">ドメイン・サーバーの定期監視、SSL更新、定期バックアップ、CMS脆弱性対策、テキスト・画像更新代行。</p>
+              </div>
+              <div class="p-4 rounded-2xl bg-white border border-slate-200">
+                <h4 class="font-bold text-slate-900 text-sm mb-1">UI/UX設計 & レスポンシブ最適化</h4>
+                <p class="text-xs text-slate-600 leading-relaxed">PC・タブレット・スマートフォンの全端末において直感的でストレスのない操作性を実現するUIデザイン。</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Specs table -->
+          <div class="p-6 rounded-2xl bg-amber-50/40 border border-amber-100">
+            <h4 class="font-bold text-slate-900 text-xs mb-3 uppercase tracking-wider font-display">標準実装・開発基準</h4>
+            <ul class="grid sm:grid-cols-2 gap-2 text-xs text-slate-700">
+              <li>・常時SSL（HTTPS）暗号化通信完全対応</li>
+              <li>・モバイルフレンドリー（完全レスポンシブ）</li>
+              <li>・構造化データマークアップ（Schema.org JSON-LD）</li>
+              <li>・主要ブラウザ動作検証（Chrome, Safari, Edge, Firefox）</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE 03: ADVERTISING AGENCY -->
+  <section id="service-ads" class="py-20 bg-white border-b border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-12 gap-12 items-start mb-12">
+        <div class="lg:col-span-5 relative">
+          <div class="rounded-3xl overflow-hidden border border-slate-200 shadow-sm sticky top-36">
+            <img src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&w=800&q=80" alt="Tokyo commercial advertising media" class="w-full h-80 object-cover">
+            <div class="p-6 bg-slate-50 border-t border-slate-100">
+              <span class="text-xs font-bold text-indigo-700 uppercase tracking-widest font-display block mb-1">SERVICE DIVISION 03</span>
+              <p class="font-bold text-slate-900 text-sm">広告業及び広告代理業</p>
+              <div class="mt-4 p-3 rounded-xl bg-white border border-slate-200 text-xs text-slate-600">
+                <span class="font-bold text-slate-800 block mb-1">【料金設定方針】</span>
+                取り扱う広告媒体の手数料体系（広告費実費に対する運用手数料率、または月額固定フィー制）、出稿期間、配信規模に応じて個別にお見積もり・プランをご提示いたします。
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-7 space-y-8">
+          <div>
+            <span class="text-xs font-bold text-brand-600 uppercase tracking-widest font-display">Division Overview</span>
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1 mb-4 leading-snug">
+              クリエイティブとメディアが連動する、<br>確かなマーケティング実行力。
+            </h2>
+            <p class="text-sm sm:text-base text-slate-600 leading-relaxed">
+              優れた映像やWebサイトを制作しても、適切な顧客層に届かなければ本来の事業価値を発揮できません。
+            </p>
+            <p class="text-sm sm:text-base text-slate-600 leading-relaxed mt-3">
+              タグボート合同会社では、制作部門と広告代理部門が緊密に連携し、ターゲット層の属性や行動パターンを分析した上で、デジタル広告（Google、Yahoo!、各種SNS）からOOHメディアまで最適な媒体プランニングと出稿代理を実行します。クリエイティブの改善と運用調整を一体で行うことで、無駄のないマーケティング投資を実現します。
+            </p>
+          </div>
+
+          <!-- Sub categories -->
+          <div class="space-y-4">
+            <h3 class="text-base font-bold text-slate-900 border-l-4 border-indigo-600 pl-3">
+              広告代理・メディア取扱領域
+            </h3>
+            <div class="grid sm:grid-cols-2 gap-4">
+              <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200">
+                <h4 class="font-bold text-slate-900 text-sm mb-1">検索連動型広告（リスティング広告）</h4>
+                <p class="text-xs text-slate-600 leading-relaxed">Google・Yahoo!での購買意欲・検討意欲の高いユーザーに対するキーワード選定・出稿・入札最適化。</p>
+              </div>
+              <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200">
+                <h4 class="font-bold text-slate-900 text-sm mb-1">SNS・動画広告出稿代理</h4>
+                <p class="text-xs text-slate-600 leading-relaxed">YouTubeバンパー/TrueView広告、Meta（Instagram/Facebook）、X（Twitter）におけるターゲティング配信。</p>
+              </div>
+              <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200">
+                <h4 class="font-bold text-slate-900 text-sm mb-1">メディアプランニング・広告枠買付</h4>
+                <p class="text-xs text-slate-600 leading-relaxed">予算とプロモーション目的に応じた広告枠の選定、スケジュール策定、媒体社との出稿交渉・手配代行。</p>
+              </div>
+              <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200">
+                <h4 class="font-bold text-slate-900 text-sm mb-1">効果測定レポート・継続改善提案</h4>
+                <p class="text-xs text-slate-600 leading-relaxed">インプレッション、クリック率（CTR）、コンバージョン率（CVR）の数値分析に基づく定期レポート報告。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUALITY & SECURITY SECTION -->
+  <section id="quality-assurance" class="py-20 bg-slate-50/70 border-b border-slate-200/80">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <span class="text-xs font-bold text-brand-600 uppercase tracking-widest font-display">Quality & Security</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-2">
+          制作品質・情報管理体制
+        </h2>
+        <div class="w-12 h-1 bg-gradient-to-r from-brand-600 to-blue-400 mx-auto mt-3 rounded-full"></div>
+      </div>
+
+      <div class="bg-white rounded-3xl border border-slate-200 p-8 sm:p-10 space-y-6 text-sm text-slate-700">
+        <div class="flex gap-4">
+          <div class="w-10 h-10 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center font-bold text-sm shrink-0">✓</div>
+          <div>
+            <h4 class="font-bold text-slate-900 text-base mb-1">秘密保持契約（NDA）の締結徹底</h4>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              ご相談段階からご契約に至るまで、貴社の機密情報・未発表の新製品情報・撮影素材等の漏洩防止を約束する秘密保持契約を正式に締結いたします。
+            </p>
+          </div>
+        </div>
+
+        <div class="flex gap-4">
+          <div class="w-10 h-10 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center font-bold text-sm shrink-0">✓</div>
+          <div>
+            <h4 class="font-bold text-slate-900 text-base mb-1">著作権および権利関係の書面化</h4>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              映像や写真の出演者肖像権、使用許諾範囲、BGM楽曲の著作権処理を法令に則り厳格に遂行し、将来の権利トラブルを未然に防止します。
+            </p>
+          </div>
+        </div>
+
+        <div class="flex gap-4">
+          <div class="w-10 h-10 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center font-bold text-sm shrink-0">✓</div>
+          <div>
+            <h4 class="font-bold text-slate-900 text-base mb-1">検収および瑕疵担保・アフターサポート</h4>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              納品時には仕様書に基づく立ち会い検収を実施。Webサイト公開後や映像データ納品後の初期不具合に対して迅速な是正対応を行います。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section id="faq" class="py-20 bg-white border-b border-slate-200/80">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <span class="text-xs font-bold text-brand-600 uppercase tracking-widest font-display">FAQ</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-2">
+          事業に関するよくあるご質問
+        </h2>
+        <div class="w-12 h-1 bg-gradient-to-r from-brand-600 to-blue-400 mx-auto mt-3 rounded-full"></div>
+      </div>
+
+      <div class="space-y-4">
+        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200">
+          <h4 class="font-bold text-slate-900 text-sm sm:text-base mb-2">Q. 初回の相談やお見積もりに費用は発生しますか？</h4>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            A. いいえ、初回のご相談・要件ヒアリング、および企画構成案・個別お見積もりのご提示までは完全無料です。正式なご発注・契約締結に至るまで費用が発生することはございません。
+          </p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200">
+          <h4 class="font-bold text-slate-900 text-sm sm:text-base mb-2">Q. 地方や海外でのロケーション撮影にも対応可能ですか？</h4>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            A. はい、日本全国への出張撮影はもちろん、これまでの30カ国以上でのロケーション撮影実績を活かし、海外での現地撮影にも対応可能です（交通・宿泊等の実費は事前にお見積もりいたします）。
+          </p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200">
+          <h4 class="font-bold text-slate-900 text-sm sm:text-base mb-2">Q. Webサイトの制作だけでなく、公開後の保守管理も依頼できますか？</h4>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            A. はい、サーバー監視、SSL更新、定期バックアップ、CMSセキュリティアップデート、テキストや画像の定期更新代行など、ご要望の頻度に応じた月次保守契約メニューをご用意しております。
+          </p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200">
+          <h4 class="font-bold text-slate-900 text-sm sm:text-base mb-2">Q. 広告出稿はどれくらいの予算から相談できますか？</h4>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            A. 少額のテスト配信（月額数万円規模）から大規模なプロモーションキャンペーンまで、お客様のご予算と達成したい目標に応じた最適なメディア選定と出稿計画をご提案いたします。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Box -->
+  <section class="py-16 bg-gradient-to-b from-blue-50/40 to-white">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h3 class="text-xl sm:text-2xl font-bold text-slate-900 mb-3">具体的なご相談・要件定義について</h3>
+      <p class="text-xs sm:text-sm text-slate-600 mb-8">
+        お問い合わせフォームより、現在検討中の課題や企画内容についてお気軽にご相談ください。
+      </p>
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="/flow" class="px-8 py-3.5 rounded-xl bg-white border border-slate-200 text-slate-700 text-xs font-bold hover:bg-slate-50 transition-colors shadow-xs">
+          ご相談から納品までの流れを見る
+        </a>
+        <a href="/contact" class="px-8 py-3.5 rounded-xl bg-brand-600 text-white text-xs font-bold hover:bg-brand-700 transition-colors shadow-xs">
+          お問い合わせ・お見積もり相談
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-50 text-slate-600 py-16 border-t border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-12 gap-8 mb-12">
+        <div class="md:col-span-5">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-brand-600 to-blue-700 flex items-center justify-center text-white font-display font-bold">
+              T
+            </div>
+            <span class="text-lg font-bold text-slate-900 tracking-wider font-display">タグボート合同会社</span>
+          </div>
+          <p class="text-xs text-slate-600 leading-relaxed mb-4">
+            〒145-0065 東京都大田区東雪谷３－８－８－１０２<br>
+            法人番号: 2030003019396 / 代表社員 野川 勇
+          </p>
+          <p class="text-xs text-slate-500">
+            映像・動画・CM企画制作 / Web・ECサイト開発保守 / 広告代理業
+          </p>
+        </div>
+
+        <div class="md:col-span-3">
+          <h4 class="text-xs font-bold text-slate-900 uppercase tracking-wider mb-4 font-display">Site Map</h4>
+          <ul class="space-y-2 text-xs">
+            <li><a href="/" class="hover:text-brand-600 transition-colors">ホーム</a></li>
+            <li><a href="/about" class="hover:text-brand-600 transition-colors">企業理念</a></li>
+            <li><a href="/services" class="hover:text-brand-600 transition-colors">主要事業案内</a></li>
+            <li><a href="/flow" class="hover:text-brand-600 transition-colors">進行の流れ</a></li>
+            <li><a href="/representative" class="hover:text-brand-600 transition-colors">代表者紹介</a></li>
+            <li><a href="/company" class="hover:text-brand-600 transition-colors">会社概要</a></li>
+            <li><a href="/contact" class="hover:text-brand-600 transition-colors">お問い合わせ</a></li>
+          </ul>
+        </div>
+
+        <div class="md:col-span-4">
+          <h4 class="text-xs font-bold text-slate-900 uppercase tracking-wider mb-4 font-display">Compliance & Links</h4>
+          <ul class="space-y-3 text-xs">
+            <li><a href="/privacy" class="hover:text-brand-600 transition-colors font-medium">プライバシーポリシー（個人情報保護方針）</a></li>
+            <li class="pt-1">
+              <span class="text-slate-500 block text-[11px] mb-1.5">企業データベース認証照会:</span>
+              <a href="https://kigyoulist.com/ja/company/2030003019396" target="_blank" rel="noopener noreferrer" class="inline-block hover:opacity-85 transition-opacity">
+                <img src="https://kigyoulist.com/icon.svg" alt="タグボート合同会社 - Kigyou-List公式認証" width="120" height="36" class="h-6 w-auto object-contain" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pt-8 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+        <p>&copy; 2022-2026 タグボート合同会社 (Tugboat LLC). All Rights Reserved.</p>
+        <p class="text-[11px]">掲載情報参照: <a href="https://kigyoulist.com" target="_blank" rel="noopener" class="text-brand-600 hover:underline">kigyoulist.com</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    mobileBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>

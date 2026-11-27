@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>進行の流れ・取引方針 | タグボート合同会社 (Tugboat LLC)</title>
+  <meta name="description" content="タグボート合同会社へのご相談からヒアリング、お見積もり、ご契約、制作、検収納品、保守管理までの業務フローをご案内します。法人取引における契約書類、秘密保持契約（NDA）、お支払い条件についての詳細を掲載。">
+  <link rel="canonical" href="https://tugboat-llc.pages.dev/flow">
+
+  <!-- Tailwind CSS & Fonts -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Noto Sans JP"', 'sans-serif'],
+            display: ['"Plus Jakarta Sans"', '"Noto Sans JP"', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#f0f7ff',
+              100: '#e0effe',
+              500: '#3b82f6',
+              600: '#2563eb',
+              700: '#1d4ed8',
+              800: '#1e40af',
+              900: '#1e3a8a',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-white text-slate-800 font-sans antialiased selection:bg-brand-600 selection:text-white">
+
+  <!-- Header -->
+  <header class="fixed top-0 left-0 w-full z-50 bg-white/95 backdrop-blur-md border-b border-slate-200/90 shadow-xs transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-3 group">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-brand-600 to-blue-700 flex items-center justify-center text-white shadow-md shadow-blue-500/20 font-display font-extrabold text-xl tracking-wider">
+          T
+        </div>
+        <div class="flex flex-col">
+          <span class="font-display font-bold text-lg sm:text-xl text-slate-900 tracking-wider group-hover:text-brand-600 transition-colors">
+            タグボート合同会社
+          </span>
+          <span class="text-[10px] text-slate-500 font-display font-semibold tracking-widest uppercase">
+            TUGBOAT LLC.
+          </span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex items-center gap-7">
+        <a href="/" class="text-sm text-slate-600 hover:text-brand-600 transition-colors font-medium">ホーム</a>
+        <a href="/about" class="text-sm text-slate-600 hover:text-brand-600 transition-colors font-medium">企業理念</a>
+        <a href="/services" class="text-sm text-slate-600 hover:text-brand-600 transition-colors font-medium">事業案内</a>
+        <a href="/flow" class="text-sm text-brand-600 font-bold border-b-2 border-brand-600 py-1">進行の流れ</a>
+        <a href="/representative" class="text-sm text-slate-600 hover:text-brand-600 transition-colors font-medium">代表紹介</a>
+        <a href="/company" class="text-sm text-slate-600 hover:text-brand-600 transition-colors font-medium">会社概要</a>
+        <a href="/contact" class="inline-flex items-center justify-center px-5 py-2.5 rounded-full text-xs font-semibold tracking-wider bg-gradient-to-r from-brand-600 to-blue-700 text-white shadow-md shadow-blue-500/20 hover:brightness-105 transition-all">
+          お問い合わせ
+        </a>
+      </nav>
+
+      <!-- Mobile Menu Button -->
+      <button id="mobile-menu-btn" class="md:hidden text-slate-600 hover:text-slate-900 p-2" aria-label="メニューを開く">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+      </button>
+    </div>
+
+    <!-- Mobile Nav dropdown -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-200 px-6 py-6 space-y-3 shadow-lg">
+      <a href="/" class="block text-slate-700 hover:text-brand-600 text-base py-2 font-medium">ホーム</a>
+      <a href="/about" class="block text-slate-700 hover:text-brand-600 text-base py-2 font-medium">企業理念</a>
+      <a href="/services" class="block text-slate-700 hover:text-brand-600 text-base py-2 font-medium">事業案内</a>
+      <a href="/flow" class="block text-brand-600 font-bold text-base py-2">進行の流れ</a>
+      <a href="/representative" class="block text-slate-700 hover:text-brand-600 text-base py-2 font-medium">代表紹介</a>
+      <a href="/company" class="block text-slate-700 hover:text-brand-600 text-base py-2 font-medium">会社概要</a>
+      <a href="/contact" class="block text-center py-3 rounded-xl bg-brand-600 text-white font-bold text-sm shadow-md">お問い合わせ</a>
+    </div>
+  </header>
+
+  <!-- Breadcrumbs & Page Header -->
+  <section class="pt-28 pb-12 bg-gradient-to-b from-blue-50/60 to-white border-b border-slate-200/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav class="flex items-center text-xs text-slate-500 mb-4 font-medium" aria-label="Breadcrumb">
+        <a href="/" class="hover:text-brand-600 transition-colors">ホーム</a>
+        <span class="mx-2 text-slate-300">/</span>
+        <span class="text-slate-800 font-bold">進行の流れ</span>
+      </nav>
+      <span class="text-xs font-bold text-brand-600 uppercase tracking-widest font-display block mb-2">Project Workflow</span>
+      <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight font-display">
+        ご相談から納品・保守までの流れ
+      </h1>
+      <p class="text-slate-600 text-sm sm:text-base mt-3 max-w-2xl leading-relaxed">
+        法人のお客様が安心してご発注いただけるよう、各段階での合意形成と書面手続きを重んじた標準プロジェクトフローを定めております。
+      </p>
+    </div>
+  </section>
+
+  <!-- Detailed 5-Step Process -->
+  <section class="py-20 bg-white border-b border-slate-200/80">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="space-y-12">
+        <!-- Step 1 -->
+        <div class="flex flex-col sm:flex-row gap-6 p-8 rounded-3xl bg-slate-50 border border-slate-200">
+          <div class="shrink-0 flex sm:flex-col items-center justify-center">
+            <span class="text-3xl font-extrabold font-display text-brand-600">01</span>
+            <span class="text-[11px] font-bold text-slate-400 font-display sm:mt-1">STEP</span>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-lg font-bold text-slate-900">お問い合わせ・初回ご相談（無料）</h3>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              当サイトのお問い合わせフォーム、またはお電話・メールにてご連絡ください。制作の目的（コーポレートサイト新設、商品紹介CM制作、広告出稿等）、希望納期、大まかなご予算感などをお聞かせください。まだ具体的な仕様が決まっていない初期段階でのご相談も歓迎いたします。
+            </p>
+            <div class="pt-2 text-xs text-slate-500">
+              ※ 必要に応じて、初回の情報開示に先立ち「秘密保持契約（NDA）」の締結を行います。
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="flex flex-col sm:flex-row gap-6 p-8 rounded-3xl bg-slate-50 border border-slate-200">
+          <div class="shrink-0 flex sm:flex-col items-center justify-center">
+            <span class="text-3xl font-extrabold font-display text-brand-600">02</span>
+            <span class="text-[11px] font-bold text-slate-400 font-display sm:mt-1">STEP</span>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-lg font-bold text-slate-900">要件定義・詳細ヒアリング</h3>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              対面またはオンライン会議（Google Meet / Zoom等）にて、制作目的、ターゲット顧客属性、貴社の競合優位性、スケジュール、納品フォーマット、掲載媒体等の要件を詳しくヒアリングいたします。
+            </p>
+            <div class="pt-2 text-xs text-slate-500">
+              主な確認事項：撮影日数・ロケーション、出演者手配の有無、Webページ規模、決済機能要件、出稿媒体等。
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="flex flex-col sm:flex-row gap-6 p-8 rounded-3xl bg-slate-50 border border-slate-200">
+          <div class="shrink-0 flex sm:flex-col items-center justify-center">
+            <span class="text-3xl font-extrabold font-display text-brand-600">03</span>
+            <span class="text-[11px] font-bold text-slate-400 font-display sm:mt-1">STEP</span>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-lg font-bold text-slate-900">企画構成案・個別お見積書の正式提示</h3>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              ヒアリング内容を基に、映像の絵コンテ・構成案、Webサイトのサイトマップ・ワイヤーフレーム、広告媒体の配信プランを作成。作業工数と実費を明確に区分した「個別お見積書」をご提示いたします。
+            </p>
+            <div class="pt-2 text-xs text-slate-500">
+              ※ お見積もり内容やスケジュールについてご要望に応じた調整・再提案にも柔軟に対応します。
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="flex flex-col sm:flex-row gap-6 p-8 rounded-3xl bg-slate-50 border border-slate-200">
+          <div class="shrink-0 flex sm:flex-col items-center justify-center">
+            <span class="text-3xl font-extrabold font-display text-brand-600">04</span>
+            <span class="text-[11px] font-bold text-slate-400 font-display sm:mt-1">STEP</span>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-lg font-bold text-slate-900">ご契約・制作着手</h3>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              ご提案内容・お見積もりにご合意いただいた後、発注書・業務委託契約書等の書面手続きを完了し、実制作に着手します。ロケハン、香盤表作成、デザイン制作、コーディング、テスト撮影など、各工程で進捗を共有しながら進めます。
+            </p>
+            <div class="pt-2 text-xs text-slate-500">
+              中間確認：仮編集映像の試写確認、Webデザインカンプの承認など、段階的なレビューを実施します。
+            </div>
+          </div>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="flex flex-col sm:flex-row gap-6 p-8 rounded-3xl bg-slate-50 border border-slate-200">
+          <div class="shrink-0 flex sm:flex-col items-center justify-center">
+            <span class="text-3xl font-extrabold font-display text-brand-600">05</span>
+            <span class="text-[11px] font-bold text-slate-400 font-display sm:mt-1">STEP</span>
+          </div>
+          <div class="space-y-2">
+            <h3 class="text-lg font-bold text-slate-900">検収・最終納品・継続保守</h3>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+              お客様による最終検収を実施いただき、合格後にマスターデータ（映像ファイル）を納品、またはWebサイトの公開（本番サーバーへのデプロイ）を行います。適格請求書（インボイス制度対応）を発行し、公開後の保守管理・広告運用へと移行します。
+            </p>
+            <div class="pt-2 text-xs text-slate-500">
+              納品後対応：初期瑕疵の無償修正対応、月次保守管理契約、広告効果測定レポートの定期提出。
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Legal & Business Terms -->
+  <section class="py-20 bg-slate-50/70 border-b border-slate-200/80">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <span class="text-xs font-bold text-brand-600 uppercase tracking-widest font-display">Business Terms</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-2">
+          お取引基準・契約書類について
+        </h2>
+        <div class="w-12 h-1 bg-gradient-to-r from-brand-600 to-blue-400 mx-auto mt-3 rounded-full"></div>
+      </div>
+
+      <div class="bg-white rounded-3xl border border-slate-200 p-8 sm:p-10 divide-y divide-slate-200 text-sm">
+        <div class="py-4 first:pt-0">
+          <h4 class="font-bold text-slate-900 text-base mb-1">契約書類・書面の取り交わし</h4>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            原則として、業務委託契約書（基本契約・個別契約）、秘密保持契約書（NDA）、発注書・発注請書を取り交わします。電子契約（クラウドサイン等）による締結にも対応しております。
+          </p>
+        </div>
+
+        <div class="py-4">
+          <h4 class="font-bold text-slate-900 text-base mb-1">お支払い条件・銀行振込</h4>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            法人取引における標準条件として、「納品検収月末締め・翌月末日銀行振込」を原則といたします。大規模案件や長期制作プロジェクトの場合は、着手金・中間金を設定させていただく場合がございます。
+          </p>
+        </div>
+
+        <div class="py-4">
+          <h4 class="font-bold text-slate-900 text-base mb-1">インボイス制度（適格請求書発行事業者）対応</h4>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            当社は国税庁適格請求書発行事業者の登録を完了しております（登録番号：<strong>T2030003019396</strong>）。法令に準拠した適格請求書を発行いたします。
+          </p>
+        </div>
+
+        <div class="py-4 last:pb-0">
+          <h4 class="font-bold text-slate-900 text-base mb-1">修正対応・著作権の帰属</h4>
+          <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+            仕様策定時の想定範囲内における修正（規定回数）は制作費用に含まれます。大幅な追加要件や仕様変更が生じた場合は、事前に再見積もりをご案内した上で進めます。著作権の帰属および利用範囲は個別契約に基づき明文化します。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Box -->
+  <section class="py-16 bg-white text-center">
+    <div class="max-w-4xl mx-auto px-4">
+      <h3 class="text-xl sm:text-2xl font-bold text-slate-900 mb-3">まずはお気軽にご相談ください</h3>
+      <p class="text-xs sm:text-sm text-slate-600 mb-8">
+        貴社の課題や制作スケジュールに合わせた最適な進行プランをご提案いたします。
+      </p>
+      <a href="/contact" class="inline-flex items-center justify-center px-8 py-3.5 rounded-xl bg-brand-600 text-white text-xs font-bold hover:bg-brand-700 transition-colors shadow-sm">
+        お問い合わせフォームへ進む →
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-50 text-slate-600 py-16 border-t border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-12 gap-8 mb-12">
+        <div class="md:col-span-5">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-brand-600 to-blue-700 flex items-center justify-center text-white font-display font-bold">
+              T
+            </div>
+            <span class="text-lg font-bold text-slate-900 tracking-wider font-display">タグボート合同会社</span>
+          </div>
+          <p class="text-xs text-slate-600 leading-relaxed mb-4">
+            〒145-0065 東京都大田区東雪谷３－８－８－１０２<br>
+            法人番号: 2030003019396 / 代表社員 野川 勇
+          </p>
+          <p class="text-xs text-slate-500">
+            映像・動画・CM企画制作 / Web・ECサイト開発保守 / 広告代理業
+          </p>
+        </div>
+
+        <div class="md:col-span-3">
+          <h4 class="text-xs font-bold text-slate-900 uppercase tracking-wider mb-4 font-display">Site Map</h4>
+          <ul class="space-y-2 text-xs">
+            <li><a href="/" class="hover:text-brand-600 transition-colors">ホーム</a></li>
+            <li><a href="/about" class="hover:text-brand-600 transition-colors">企業理念</a></li>
+            <li><a href="/services" class="hover:text-brand-600 transition-colors">主要事業案内</a></li>
+            <li><a href="/flow" class="hover:text-brand-600 transition-colors">進行の流れ</a></li>
+            <li><a href="/representative" class="hover:text-brand-600 transition-colors">代表者紹介</a></li>
+            <li><a href="/company" class="hover:text-brand-600 transition-colors">会社概要</a></li>
+            <li><a href="/contact" class="hover:text-brand-600 transition-colors">お問い合わせ</a></li>
+          </ul>
+        </div>
+
+        <div class="md:col-span-4">
+          <h4 class="text-xs font-bold text-slate-900 uppercase tracking-wider mb-4 font-display">Compliance & Links</h4>
+          <ul class="space-y-3 text-xs">
+            <li><a href="/privacy" class="hover:text-brand-600 transition-colors font-medium">プライバシーポリシー（個人情報保護方針）</a></li>
+            <li class="pt-1">
+              <span class="text-slate-500 block text-[11px] mb-1.5">企業データベース認証照会:</span>
+              <a href="https://kigyoulist.com/ja/company/2030003019396" target="_blank" rel="noopener noreferrer" class="inline-block hover:opacity-85 transition-opacity">
+                <img src="https://kigyoulist.com/icon.svg" alt="タグボート合同会社 - Kigyou-List公式認証" width="120" height="36" class="h-6 w-auto object-contain" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="pt-8 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+        <p>&copy; 2022-2026 タグボート合同会社 (Tugboat LLC). All Rights Reserved.</p>
+        <p class="text-[11px]">掲載情報参照: <a href="https://kigyoulist.com" target="_blank" rel="noopener" class="text-brand-600 hover:underline">kigyoulist.com</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    mobileBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
